@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Jurnalis - Media Journal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Navbar (opsional, sama seperti halaman lain) -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a class="brand" href="index.html">Media Journal</a>
+
+            <ul class="nav-menu">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="#">Profil</a></li>
+            </ul>
+
+            <a href="#" class="btn-logout">Logout</a>
+        </div>
+    </nav>
+
+    <!-- DASHBOARD -->
+    <section class="dashboard">
+
+        <h1>Dashboard Jurnalis</h1>
+        <p>Kelola artikel, buat berita baru, dan pantau aktivitas Anda.</p>
+
+        <a href="#" class="btn-tambah">+ Tambah Artikel Baru</a>
+
+        <table class="dashboard-table">
+            <thead>
+                <tr>
+                    <th>Judul Artikel</th>
+                    <th>Tanggal</th>
+                    <th>Status</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Judul Contoh Artikel 1</td>
+                    <td>25 Jan 2025</td>
+                    <td>Dipublikasikan</td>
+                    <td>
+                        <button class="btn-edit">Edit</button>
+                        <button class="btn-delete">Hapus</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Artikel Draft Contoh</td>
+                    <td>24 Jan 2025</td>
+                    <td>Draft</td>
+                    <td>
+                        <button class="btn-edit">Edit</button>
+                        <button class="btn-delete">Hapus</button>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </section>
+
+</body>
+              </html>
